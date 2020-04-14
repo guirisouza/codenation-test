@@ -13,7 +13,7 @@ let sirCalc = (word, charNum) => {
             } else {
                 result = alpha[index-charNum]
             }
-            console.log(alpha[index-charNum])
+            console.log('aqui', alpha[index-charNum])
         }
     })
     return result
