@@ -13,7 +13,6 @@ let sirCalc = (word, charNum) => {
             } else {
                 result = alpha[index-charNum]
             }
-            console.log('aqui', alpha[index-charNum])
         }
     })
     return result
@@ -32,12 +31,11 @@ let sirDecipherer = (message, numChar) => {
             newMessage.push(element)
         }
     });
-    console.log('Antes: ', newMessage)
     newMessage = newMessage.join('')
-    console.log('AQUI: ', newMessage)
+    console.log('Rresult: ', newMessage)
 }
 
-sirDecipherer('bc', 3)
+sirDecipherer('vkxlkizout (ot jkyomt) oy ginokbkj tuz cnkt znkxk oy tuznotm suxk zu gjj, haz xgznkx cnkt znkxk oy tuznotm suxk zu zgqk gcge. gtzuotk jk ygotz-kdavkxe', 6)
 // console.log(sirCalc('a'))
 
 // axios.get('https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=69ebcc665d5918fd8492341920444b20374b7745')
